@@ -6,51 +6,52 @@
   <title>Souveraineté Financière</title>
   <style>
     body {
-      background-color: #111;
-      color: #eee;
-      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      padding: 2rem;
+      padding: 1rem;
+      background-color: #0f0f0f;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
     }
-    h1 {
-      color: #0ef;
-      margin-bottom: 1rem;
+    h1, h2 {
+      color: #00ffff;
     }
-    section {
+    .section {
       margin-bottom: 2rem;
     }
-    a.button {
-      display: inline-block;
-      margin: 0.3rem 0;
-      padding: 0.6rem 1.2rem;
-      background-color: #222;
-      border: 1px solid #0ef;
-      color: #0ef;
+    .link-button {
+      display: block;
+      background-color: #1e1e1e;
+      border: 1px solid #00ffff;
+      color: #00ffff;
+      padding: 12px;
+      margin: 8px 0;
+      text-align: center;
+      border-radius: 8px;
       text-decoration: none;
-      border-radius: 6px;
+      font-size: 1.1rem;
     }
-    a.button:hover {
-      background-color: #0ef;
-      color: #111;
+    .link-button:active {
+      background-color: #00ffff;
+      color: #0f0f0f;
     }
   </style>
 </head>
 <body>
   <h1>Souveraineté Financière</h1>
 
-  <section>
+  <div class="section">
     <h2>Plateformes Décentralisées</h2>
-    <a href="https://bisq.network" class="button" target="_blank">Bisq</a><br>
-    <a href="https://haveno.exchange" class="button" target="_blank">Haveno</a><br>
-    <a href="https://localmonero.co" class="button" target="_blank">LocalMonero</a>
-  </section>
+    <a href="https://bisq.network" class="link-button" rel="noopener noreferrer">🌐 Bisq</a>
+    <a href="https://haveno.exchange" class="link-button" rel="noopener noreferrer">🌐 Haveno</a>
+    <a href="https://localmonero.co" class="link-button" rel="noopener noreferrer">🌐 LocalMonero</a>
+  </div>
 
-  <section>
+  <div class="section">
     <h2>Messageries Sécurisées</h2>
-    <a href="https://getsession.org" class="button" target="_blank">Session</a><br>
-    <a href="https://signal.org" class="button" target="_blank">Signal</a><br>
-    <a href="https://element.io" class="button" target="_blank">Element (Matrix)</a>
-  </section>
-
+    <a href="https://getsession.org" class="link-button" rel="noopener noreferrer">🔐 Session</a>
+    <a href="https://signal.org" class="link-button" rel="noopener noreferrer">🔐 Signal</a>
+    <a href="https://element.io" class="link-button" rel="noopener noreferrer">🔐 Element</a>
+  </div>
 </body>
 </html>
